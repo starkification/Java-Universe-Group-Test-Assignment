@@ -1,0 +1,5 @@
+test-assignment:
+  base-url: https://automation-qa-test.universeapps.limited
+  auth-token:
+
+  chat-api-url: /stream/v1/chat/completions
