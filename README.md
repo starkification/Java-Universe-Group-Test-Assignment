@@ -14,11 +14,11 @@ It supports test execution via IntelliJ IDEA, Gradle task, or Docker container.
 1. Open __IntelliJ IDEA__ setting.
 2. Navigate to the __Plugins__ section.
 3. Search for official __Cucumber for Java__ Jetbrains plugin and install it.
-4. Open the `applocation.yml` located in `src/main/resources`:
+4. Open the `application.yml` located in `src/main/resources`:
 
 ![img_1.png](images/img_1.png)
 
-5. In the `test-assignment.auth-token` property, specify a valid auth token:
+5. In the `test-assignment.auth-token` property, specify a valid authentication token:
 
 ![img_10.png](images/img_2.png)
 
