@@ -16,27 +16,27 @@ It supports test execution via IntelliJ IDEA, Gradle task, or Docker container.
 3. Search for official __Cucumber for Java__ Jetbrains plugin and install it.
 4. Open the `applocation.yml` located in `src/main/resources`:
 
-![img_6.png](img_6.png)
+![img_1.png](images/img_1.png)
 
 5. In the `test-assignment.auth-token` property, specify a valid auth token:
 
-![img_10.png](img_10.png)
+![img_10.png](images/img_2.png)
 
 6. Open a __feature file__ located in `src/test/resources/features`:
 
-![img_7.png](img_7.png)
+![img_7.png](images/img_3.png)
 
 7. Click on the __green play icon__ at the top near the Feature keyword:
 
-![img_8.png](img_8.png)
+![img_8.png](images/img_4.png)
 
 8. Click on __Run__ option:
 
-![img_9.png](img_9.png)
+![img_9.png](images/img_5.png)
 
 9. View the test results in the UI at the bottom:
 
-![img_5.png](img_5.png)
+![img_5.png](images/img_6.png)
 
 
 ## Option 2. Run via Gradle Task
