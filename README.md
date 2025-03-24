@@ -12,8 +12,11 @@ It supports test execution via IntelliJ IDEA, Gradle task, or Docker container.
 ## Setup
 ### Option 1. Run via IntelliJ IDEA UI
 1. Open __IntelliJ IDEA__ setting.
+
 2. Navigate to the __Plugins__ section.
+
 3. Search for official __Cucumber for Java__ Jetbrains plugin and install it.
+
 4. Open the `application.yml` located in `src/main/resources`:
 
 ![img_1.png](images/img_1.png)
@@ -41,11 +44,15 @@ It supports test execution via IntelliJ IDEA, Gradle task, or Docker container.
 
 ## Option 2. Run via Gradle Task
 1. Run the Gradle test task:
+
 ```
 ./gradlew clean test -Dauth-token=<auth_token>
 ```
+
 Replace `<auth_token>` with a valid authentication token.
+
 2. View the results in the HTML report:
+
 ```shell
 open build/test-reports/cucumber-report.html
 ```
@@ -53,14 +60,19 @@ open build/test-reports/cucumber-report.html
 
 ## Option 3. Run via Docker Container
 1. Build the Docker image:
+
 ```shell
 docker build -t java-universe-group-test-assignment .
 ```
+
 2. Run the Docker container:
+
 ```
 docker run --rm -e AUTH_TOKEN=<auth_token> -v $(pwd)/build/test-reports:/app/build/test-reports java-universe-group-test-assignment
 ```
+
 Replace `<auth_token>` with a valid authentication token.
+
 3. View the results in the HTML report:
 ```shell
 open build/test-reports/cucumber-report.html
